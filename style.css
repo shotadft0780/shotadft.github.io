@@ -114,6 +114,7 @@ html {
 
 	.toggle {
 	    display:none;
+	    visibility:hidden;
 	}
 	
 	.Label {
