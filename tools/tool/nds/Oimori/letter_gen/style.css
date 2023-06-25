@@ -1,0 +1,20 @@
+textarea {
+  resize: none;
+}
+body {
+  color: var(--main-text);
+  background-color: var(--main-bg);
+  transition: .5s;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000000;
+    color: #808080;
+  }
+}
+@media (min-width: 800px) {
+   div.column { width: 240px; float: left; }
+}
+@media (max-width: 799px) {
+   div.column { width: 100%; }
+}
