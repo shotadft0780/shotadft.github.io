@@ -1,2 +1,2 @@
-# shotadft.github.io
+# shotadft.com
 僕のホームページ
