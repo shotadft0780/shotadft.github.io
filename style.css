@@ -112,6 +112,10 @@ html {
             *zoom: 1;
         }
 
+	.toggle {
+	    display:none;
+	}
+	
 	.Label {
 		padding: 1em;
 		display: block;
