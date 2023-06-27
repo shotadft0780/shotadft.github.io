@@ -427,3 +427,52 @@ html {
   color: rgb(255, 255, 255, 0.8);
 }
 /*トップへ戻るボタンここまで*/
+
+// ダウンロードボタン
+.button_dl a {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 220px;
+    padding: 10px 25px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    background: #eee;
+}
+.button_dl a:hover {
+    background: #ebfcfe;
+    color: #6bb6ff;
+}
+.button_dl a:before, .button_line007 a:after {
+  box-sizing: inherit;
+  content: "";
+  position: absolute;
+  border: 2px solid transparent;
+  width: 0;
+  height: 0;
+}
+.button_dl a:before {
+  top: 0;
+  left: 0;
+}
+.button_ld a:after {
+  bottom: 0;
+  right: 0;
+}
+.button_dl a:hover:before, .button_line007 a:hover:after {
+  width: 100%;
+  height: 100%;
+}
+.button_dl a:hover:before {
+  border-top-color: #6bb6ff;
+  border-right-color: #6bb6ff;
+  transition: width 0.15s ease-out, height 0.15s ease-out 0.15s;
+}
+.button_dl a:hover:after {
+  border-bottom-color: #6bb6ff;
+  border-left-color: #6bb6ff;
+  transition: border-color 0s ease-out 0.2s, width 0.15s ease-out 0.2s, height 0.15s ease-out 0.3s;
+}
