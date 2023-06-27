@@ -1,20 +1,21 @@
-$(function () {
-  // スクロールしたら「トップに戻る」ボタンが表示される
-  const toTopButton = $("gotop");
-  const scrollHeight = 100;
-  toTopButton.hide();
-  $(window).scroll(function () {
-    if ($(this).scrollTop() > 100) {
-      toTopButton.fadeIn();
-    } else {
-      toTopButton.fadeOut();
+$(function(){
+  var topBtn=$('#page_top');
+  topBtn.hide();
+  
+  $(window).scroll(function(){
+    if($(this).scrollTop()>80){
+      // 画面を80pxスクロールしたら、ボタンを表示する
+      topBtn.fadeIn();
+    }else{
+      // 画面が80pxより上なら、ボタンを表示しない
+      topBtn.fadeOut();
     }
   });
-            pageTop.click(function() {
-                $('body, html').animate({
-                    scrollTop: 0
-                }, 500, 'swing');
-                pageTop.blur();
-                return false;
-            });
-        });
+  
+  topBtn.click(function(){
+    $('body,html').animate({
+    scrollTop: 0},500);
+    return false;
+  });
+  
+  });
