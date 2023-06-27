@@ -392,17 +392,34 @@ html {
    div.column { width: 100%; }
 }
 /*追従するトップへ戻るボタン*/
-#page_top {
+#page_top{
+  width: 100px;
+  height: 100px;
   position: fixed;
-  bottom: 10px;
   right: 10px;
-  font-weight: bold;
-  padding: 0.7em;
-  text-align: center;
-  background: rgb(255, 0, 0);
-  color: #fff;
-  transition: 0.3s0;
-}
+  bottom: 10px;
+  background: #e25407;
+  opacity: 0.6;
+  border-radius: 50%;
+  }
+
+  /* Font Awesome */
+  #page_top::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f106';
+    font-size: 50px;
+    color: #ffffff;
+    position: absolute;
+    width: 30px;
+    height: 60px;
+    top: -5px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+  }
 
 /* マウスオーバー時 */
 #page_top:hover {
