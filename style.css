@@ -458,7 +458,7 @@ html {
   top: 0;
   left: 0;
 }
-.button_ld a:after {
+.button_dl a:after {
   bottom: 0;
   right: 0;
 }
