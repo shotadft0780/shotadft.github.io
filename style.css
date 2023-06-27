@@ -403,6 +403,22 @@ html {
   border-radius: 50%;
   }
 
+  /* Font Awesome */
+  #page_top::before {
+    font-weight: 900;
+    font-size: 50px;
+    color: #ffffff;
+    position: absolute;
+    width: 30px;
+    height: 60px;
+    top: -5px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+  }
+
 /* マウスオーバー時 */
 #page_top:hover {
   background: rgb(255, 0, 0, 0.8);
