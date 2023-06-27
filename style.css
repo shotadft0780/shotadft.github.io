@@ -1,5 +1,5 @@
 html {
-    scroll-behavior: smooth;
+ scroll-behavior: smooth;
 }
 
       body {
@@ -401,24 +401,6 @@ html {
   background: #e25407;
   opacity: 0.6;
   border-radius: 50%;
-  }
-
-  /* Font Awesome */
-  #page_top::before {
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 900;
-    content: '\f106';
-    font-size: 50px;
-    color: #ffffff;
-    position: absolute;
-    width: 30px;
-    height: 60px;
-    top: -5px;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto;
-    text-align: center;
   }
 
 /* マウスオーバー時 */
