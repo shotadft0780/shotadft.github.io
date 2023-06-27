@@ -392,34 +392,21 @@ html {
    div.column { width: 100%; }
 }
 /*追従するトップへ戻るボタン*/
-.gotop {
-    display: none;
-    position: fixed;
-    bottom: 30px;
-    right: 15px;
+#page_top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-weight: bold;
+  padding: 0.7em;
+  text-align: center;
+  background: rgb(255, 0, 0);
+  color: #fff;
+  transition: 0.3s0;
 }
-.gotop a {
-    display: block;
-    background-color: #ccc;
-    text-align: center;
-    color: #222;
-    font-size: 12px;
-    text-decoration: none;
-    padding: 5px 10px;
-	filter:alpha(opacity=50);
-    -moz-opacity: 0.5;
-    opacity: 0.5;
-}
-.gotop a:hover {
-    display: block;
-    background-color: #b2d1fb;
-    text-align: center;
-    color: #fff;
-    font-size: 12px;
-    text-decoration: none;
-    padding:5px 10px;
-	filter:alpha(opacity=50);
-    -moz-opacity: 0.5;
-    opacity: 0.5;
+
+/* マウスオーバー時 */
+#page_top:hover {
+  background: rgb(255, 0, 0, 0.8);
+  color: rgb(255, 255, 255, 0.8);
 }
 /*トップへ戻るボタンここまで*/
