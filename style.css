@@ -1,6 +1,6 @@
-html {
- scroll-behavior: smooth;
-}
+      html {
+           scroll-behavior: smooth;
+           }
 
       body {
             background: #ffffff;
@@ -85,7 +85,7 @@ html {
             padding: 144px 0;
             width: 100%;
             background: #ea5866;
-            background-image: linear-gradient(135deg, #8cc152, #da4453, #f6bb42);
+            background-image: linear-gradient(135deg, #8cc152, #ffff00, #da4453);
             color: #fff;
             text-align: center;
             font-weight: bold;
