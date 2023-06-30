@@ -91,6 +91,7 @@
             font-weight: bold;
             font-size: 3em;
         }
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #000000;
@@ -100,7 +101,15 @@
     background-color: #000000;
     color: #808080;
   }
+  .nav {
+    background-color: #000000;
+    color: #808080;
+  }
   .footer {
+    background-color: #000000;
+    color: #808080;
+  }
+  .footer-nav {
     background-color: #000000;
     color: #808080;
   }
