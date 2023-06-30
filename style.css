@@ -476,7 +476,7 @@
   outline: 0;
 }
 
-.button_dl button:active{
+.button_dl button::active{
   transform: scale(0.95);
   background: #008EC3;
 }
