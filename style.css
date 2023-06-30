@@ -103,13 +103,17 @@
   }
   .nav {
     background-color: #000000;
-    color: #808080;
+    color: #ffffff;
   }
   .footer {
     background-color: #000000;
     color: #808080;
   }
   .footer-nav {
+    background-color: #000000;
+    color: #808080;
+  }
+  .nav-group {
     background-color: #000000;
     color: #808080;
   }
